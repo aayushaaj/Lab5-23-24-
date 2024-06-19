@@ -13,6 +13,7 @@ class Graph
         void removeVertex(int vertexToRemove);
         void removeEdge(int vertex1,int vertex2);
         int numVertices();
+        
         int numEdges();
         int indegree(int vertex);
         int outdegree(int vertex);
