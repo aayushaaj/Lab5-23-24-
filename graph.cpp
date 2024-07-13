@@ -52,7 +52,7 @@ void Graph::removeVertex(int vertex)
     {
         row.erase(row.begin() + vertex);
     }
-    numOfVertices -
+    numOfVertices--;
 }
 
 void Graph::removeEdge(int vertex1, int vertex2)
