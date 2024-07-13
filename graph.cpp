@@ -14,7 +14,7 @@ bool Graph::isEmpty()
         for (int val : row)
         {
             if (val != 0)
-                return false;
+                return false
         }
     }
     return true;
