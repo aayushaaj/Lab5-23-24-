@@ -14,7 +14,7 @@ bool Graph::isEmpty()
         for (int val : row)
         {
             if (val != 0)
-                return false
+                return false;
         }
     }
     return true;
@@ -52,7 +52,7 @@ void Graph::removeVertex(int vertex)
     {
         row.erase(row.begin() + vertex);
     }
-    numOfVertices--;
+    numOfVertices -
 }
 
 void Graph::removeEdge(int vertex1, int vertex2)
